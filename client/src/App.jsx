@@ -146,7 +146,7 @@ function App() {
   // 2. Main App Interface
   return (
     <div className="min-h-screen p-4 md:p-6 bg-dark-900 font-sans text-gray-200">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 h-[90vh]">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[90vh]">
         
         {/* SIDEBAR */}
         <div className="md:col-span-4 flex flex-col gap-4">
